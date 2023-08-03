@@ -1,0 +1,17 @@
+@media screen and (max-width:767px) {
+   .xs-d-none{display: none;}
+   .xs-d-block{display: block;}
+   .navigation {
+    transform: translatex(100%);
+    flex-direction: column;
+    position: fixed;
+    inset-inline-end: 0;
+    padding: 60px 30px 30px;
+    width: 100%;
+    inset-block: 0;
+    height: 100dvh;
+    z-index: 1;
+    transition: 0.5s ease-in-out;
+    background-color: rgba(var(--blackClr),1);
+   }
+}
